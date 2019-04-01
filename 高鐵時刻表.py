@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[19]:
-
-
 import requests
 import json
 
@@ -30,5 +24,5 @@ res = requests.post(url, headers=headers, data=form_data)
 
 jsdata = res.json()
 
-print(jsdata['data'])
+#print(jsdata['data'])
 
